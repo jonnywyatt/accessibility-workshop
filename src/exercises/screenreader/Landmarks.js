@@ -8,7 +8,7 @@ export const Landmarks = () => {
       </header>
       <main className={'main'}>
         <h2 className={'heading'}>Screen readers: Landmarks</h2>
-        <p>Every element should be inside a landmark:</p>
+        <p>Group your content with landmarks:</p>
         <ul>
           <li>header</li>
           <li>main</li>

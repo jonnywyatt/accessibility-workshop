@@ -15,13 +15,13 @@ export const VisuallyHiddenText = () => {
       <h2>Repeated links</h2>
       <p>A sighted user can use the visual position of the View and Delete links to understand which role they each relate to.</p>
       <p>A visually impaired user might want to view the links in a list, 'out of context'. Use the Links panel in the rotor to try it. Use the .visually-hidden CSS class to add some extra text to each link label, for screen reader users.</p>
+      <p>Note - use links vs buttons correctly - if clicking the element will cause a new URL to load, and some or all of the page content to change, use a link 'a' element not a 'button' element.</p>
       <ul>
         <li>Front end role <a href={'#'}>View</a> | <a href={'#'}>Delete</a></li>
         <li>Back end role <a href={'#'}>View</a> | <a href={'#'}>Delete</a></li>
         <li>Full stack role <a href={'#'}>View</a> | <a href={'#'}>Delete</a></li>
       </ul>
-
-      <p><a href={'https://blog.logrocket.com/design-accessibility-css-visually-hidden-class'}>More info</a> </p>
+      <p><a href={'https://blog.logrocket.com/design-accessibility-css-visually-hidden-class'}>More info</a></p>
     </main>
   )
 }

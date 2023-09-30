@@ -7,6 +7,10 @@
   padding: var(--spacing-16px) var(--spacing-32px);
 }
 
+.content {
+    padding: var(--spacing-16px) var(--spacing-32px);
+}
+
 li {
   margin-bottom: var(--spacing-8px);
 }

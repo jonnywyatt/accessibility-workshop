@@ -4,21 +4,21 @@ import { Link, Outlet } from 'react-router-dom';
 
 export const SpaPageOne = () => {
   return (
-    <main className={'main'}>
+    <div className={'content'}>
       <h1 className={'heading'}>Page 1</h1>
       <p>Accessibility for the win!</p>
-      <Link to={'one'}>Go to page two</Link>
-    </main>
+      <Link to={'/focus-h1-spas/two'}>Go to page two</Link>
+    </div>
   )
 }
 
 export const SpaPageTwo = () => {
   return (
-    <main className={'main'}>
+    <div className={'content'}>
       <h1 className={'heading'}>Page 2</h1>
       <p>Let screen reader users know that this is a different page, by focussing the h1.</p>
-      <Link to={'one'}>Go back to page one</Link>
-    </main>
+      <Link to={'/focus-h1-spas/one'}>Go back to page one</Link>
+    </div>
   )
 }
 
@@ -26,7 +26,7 @@ export const FocusH1Spas = () => {
   return (
     <main className={'main'}>
       <nav>
-        <Link to={'one'}>Link one</Link> | <Link to={'two'}>Link two</Link>
+        <Link to={'/focus-h1-spas/one'}>Link one</Link> | <Link to={'/focus-h1-spas/two'}>Link two</Link>
       </nav>
       <Outlet />
     </main>
