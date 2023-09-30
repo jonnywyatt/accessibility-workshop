@@ -27,7 +27,7 @@
 
 .spacing-rem {
   border: 1px solid red;
-  padding: var(--spacing-unit-2);
+  padding: var(--spacing-8px);
 
 }
 

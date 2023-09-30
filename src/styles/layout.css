@@ -1,0 +1,17 @@
+.header {
+  background-color: #eee;
+  padding: var(--spacing-16px) var(--spacing-32px);
+}
+
+.main {
+  padding: var(--spacing-16px) var(--spacing-32px);
+}
+
+li {
+  margin-bottom: var(--spacing-8px);
+}
+
+.panel-secondary {
+  padding: var(--spacing-16px) var(--spacing-24px);
+  background-color: var(--blue-pale);
+}

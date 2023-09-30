@@ -1,19 +1,19 @@
 .heading {
   font-family: var(--font-stack-heading);
-  font-size: var(--font-size-32);
+  font-size: var(--font-size-32px);
   font-weight: 400;
   line-height: 1.2;
-  margin-bottom: var(--spacing-unit-4);
-  margin-top: var(--spacing-unit-8);
+  margin-bottom: var(--spacing-16px);
+  margin-top: var(--spacing-32px);
 }
 
 .heading-3 {
   font-family: var(--font-stack-heading);
-  font-size: var(--font-size-16);
+  font-size: var(--font-size-16px);
   font-weight: 400;
   line-height: 1.2;
-  margin-bottom: var(--spacing-unit-4);
-  margin-top: var(--spacing-unit-4);
+  margin-bottom: var(--spacing-16px);
+  margin-top: var(--spacing-16px);
 }
 
 .visually-hidden:not(:focus):not(:active) {

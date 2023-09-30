@@ -1,0 +1,9 @@
+.header {
+  background-color: var(--lilac);
+  padding: var(--spacing-16px) var(--spacing-32px);
+  margin-bottom: var(--spacing-16px);
+}
+
+.siteTitle {
+    font-size: var(--font-size-20px);
+}

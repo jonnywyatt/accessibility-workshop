@@ -1,5 +1,5 @@
-import '../../styles/layout.scss';
-import './ResizeText.scss';
+import '../../styles/layout.css';
+import './ResizeText.css';
 
 export const ResizeText = () => {
   return (
@@ -8,8 +8,10 @@ export const ResizeText = () => {
       <p>This will enable users to use their 'global' font size setting, without having to zoom each page.</p>
       <p>Go to Chrome settings -> Appearance (chrome://settings/appearance) and change Font size from Medium to Large</p>
 
+      <div className={'panel-secondary'}>
       <p className={'px'}>This is set in px - it won't resize</p>
       <p className={'rem'}>This is set in rem - it will resize</p>
+      </div>
 
       <details className={'details'}>
         <summary>Using 'rem' in your CSS</summary>
@@ -23,16 +25,16 @@ export const ResizeText = () => {
           `
           // declare these once in your reset.css or variables.css
           :root {
-            --font-size-10: 0.625rem;
-            --font-size-14: 0.875rem;
-            --font-size-16: 1rem;
-            --font-size-20: 1.25rem;
-            --font-size-32: 2rem;
+            --font-size-10px: 0.625rem;
+            --font-size-14px: 0.875rem;
+            --font-size-16px: 1rem;
+            --font-size-20px: 1.25rem;
+            --font-size-32px: 2rem;
           }
          
           // use the variables in any of your CSS files
           .text {
-            font-size: var(--font-size-16);
+            font-size: var(--font-size-16px);
           }
          `
           }

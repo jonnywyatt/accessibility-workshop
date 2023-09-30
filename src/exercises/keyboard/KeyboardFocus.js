@@ -1,5 +1,5 @@
-import '../../styles/layout.scss';
-import './KeyboardFocus.scss';
+import '../../styles/layout.css';
+import './KeyboardFocus.css';
 
 export const KeyboardFocus = () => {
   return (
@@ -14,6 +14,8 @@ export const KeyboardFocus = () => {
         </div>
         <p><button>Submit</button></p>
       </form>
+      <h2>Extra challenge if you finish quickly</h2>
+      <p>Have a look at gov.uk - tab across some of the inputs. They've added a custom style to outline to make it even more noticeable. Use Chrome devtools to find the style they've applied and copy it. Add it to the stylesheet for this page.</p>
     </main>
   )
 }

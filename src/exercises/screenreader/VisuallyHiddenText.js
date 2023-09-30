@@ -1,4 +1,4 @@
-import '../../styles/layout.scss';
+import '../../styles/layout.css';
 import { IconDelete } from './IconDelete';
 
 export const VisuallyHiddenText = () => {

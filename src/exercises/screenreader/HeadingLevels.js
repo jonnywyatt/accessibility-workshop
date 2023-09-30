@@ -1,4 +1,4 @@
-import '../../styles/layout.scss';
+import '../../styles/layout.css';
 
 export const HeadingLevels = () => {
   return (

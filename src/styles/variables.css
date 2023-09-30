@@ -1,0 +1,51 @@
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-stack: Verdana, sans-serif;
+  --font-stack-heading: Verdana, sans-serif;
+
+  --white: #ffffff;
+  --green-dark: #0c6b58;
+  --green-pale: #BBFAE1;
+  --blue: #0d3aad;
+
+  --lilac: #c3d2f8;
+  --blue-pale: #d9e3fa;
+
+  --grey-1: #222222;
+  --grey-1b: #333333;
+  --grey-2: #444444;
+  --grey-2b: #555555;
+  --grey-3: #666666;
+  --grey-3b: #777777;
+  --grey-4: #888888;
+  --grey-4b: #999999;
+  --grey-5: #aaaaaa;
+  --grey-6: #cccccc;
+  --grey-6b: #dddddd;
+  --grey-7: #eeeeee;
+
+  --spacing-4px: 0.25rem;
+  --spacing-8px: 0.5rem;
+  --spacing-12px: 0.75rem;
+  --spacing-16px: 1rem;
+  --spacing-20px: 1.25rem;
+  --spacing-32px: 2rem;
+  --spacing-40px: 2.5rem;
+  --spacing-80px: 5rem;
+  --spacing-120px: 7.5rem;
+  --spacing-160px: 10rem;
+  --spacing-164px: 10.25rem;
+
+  --font-size-9px: 0.5625rem;
+  --font-size-10px: 0.625rem;
+  --font-size-11px: 0.6875rem;
+  --font-size-12px: 0.75rem;
+  --font-size-13px: 0.8125rem;
+  --font-size-14px: 0.875rem;
+  --font-size-16px: 1rem;
+  --font-size-20px: 1.25rem;
+  --font-size-21px: 1.3125rem;
+  --font-size-22px: 1.375rem;
+  --font-size-32px: 2rem;
+}

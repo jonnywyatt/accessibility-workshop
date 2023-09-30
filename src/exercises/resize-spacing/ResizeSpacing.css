@@ -1,0 +1,13 @@
+.wrapper {
+  background-color: var(--blue-pale);
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.box-px {
+  background-color: var(--green-pale);
+  padding: 8px;
+  margin: 8px;
+  border: 1px solid black;
+}

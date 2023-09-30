@@ -1,4 +1,4 @@
-import '../../styles/layout.scss';
+import '../../styles/layout.css';
 import './FocusH1Spas.css';
 import { useState } from 'react';
 export const LiveRegions = () => {

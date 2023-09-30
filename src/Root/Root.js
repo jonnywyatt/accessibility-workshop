@@ -1,7 +1,7 @@
-import '../styles/variables.scss';
-import '../styles/type.scss';
-import '../styles/layout.scss';
-import styles from './Root.module.scss';
+import '../styles/variables.css';
+import '../styles/type.css';
+import '../styles/layout.css';
+import styles from './Root.module.css';
 
 export const Root = () => {
 

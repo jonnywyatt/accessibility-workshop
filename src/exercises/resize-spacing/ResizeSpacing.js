@@ -1,26 +1,30 @@
-import '../../styles/layout.scss';
-import './ResizeSpacing.scss';
+import '../../styles/layout.css';
+import './ResizeSpacing.css';
 
 export const ResizeSpacing = () => {
   return (
     <main className={'main'}>
-      <h1 className={'heading'}>Resizing spacing with text size</h1>
+      <h1 className={'heading'}>When text is resized, also resize spacing</h1>
 
-      <details className={'details'}>
-        <summary>Using 'rem' for spacing</summary>
-        {
-          `
-          // declare these once in your reset.css or variables.css
-          
+      <div className={'wrapper'}>
+        <div className={'box-px'}>
+          This box has padding and margin set in pixels. Try resizing the text.
+        </div>
+      </div>
+      <p>Look at the spacing variables declared in variables.css</p>
+      <pre>
+      {
+        `
       :root {
-        --spacing-unit-1: 5px;
-        --spacing-unit-2: 10px;
-        --spacing-unit-3: 15px;
-        --spacing-unit-4: 20px;
+        --spacing-4px: 0.25rem;
+        --spacing-8px: 0.5rem;
+        --spacing-12px: 0.75rem;
+        --spacing-16px: 1rem;
       }
     `
-        }
-      </details>
+      }
+      </pre>
+      <p>Use a variable to set the padding and margin on .box-px, instead of using a pixel value.</p>
     </main>
   )
 }
