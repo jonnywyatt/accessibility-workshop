@@ -17,7 +17,7 @@ export const VisuallyHiddenText = () => {
       <p>A visually impaired user might want to view the links in a list, 'out of context'. Use the Links panel in the rotor to try it. Use the .visually-hidden CSS class to add some extra text to each link label, for screen reader users.</p>
       <p>Note - use links vs buttons correctly - if clicking the element will cause a new URL to load, and some or all of the page content to change, use a link 'a' element not a 'button' element.</p>
       <ul>
-        <li>Front end role <a href={'#'}>View</a> | <a href={'#'}>Delete</a></li>
+        <li>Front end role <a href={'#'}>View <span className={'visually-hidden'}> front end role</span> </a> | <a href={'#'}>Delete</a></li>
         <li>Back end role <a href={'#'}>View</a> | <a href={'#'}>Delete</a></li>
         <li>Full stack role <a href={'#'}>View</a> | <a href={'#'}>Delete</a></li>
       </ul>

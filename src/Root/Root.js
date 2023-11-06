@@ -30,8 +30,8 @@ export const Root = () => {
         </ul>
         <h3 className={'heading-3'}>More advanced techniques</h3>
         <ul>
-          <li><a href={'/focus-h1-spas/one'}>Single page apps - focus heading</a></li>
           <li><a href={'/live-regions'}>Live regions</a></li>
+          <li><a href={'/focus-h1-spas/one'}>Single page apps - focus heading</a></li>
         </ul>
       </main>
     </div>

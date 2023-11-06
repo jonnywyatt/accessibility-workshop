@@ -9,7 +9,7 @@
 
 .details {
   margin-top: 3rem;
-  summary {
+  & summary {
     cursor: pointer;
   }
   .details__content {

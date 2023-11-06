@@ -23,7 +23,7 @@ export const ResizeText = () => {
         <code>
           {
           `
-          // declare these once in your reset.css or variables.css
+          // look in src/styles/variables.css
           :root {
             --font-size-10px: 0.625rem;
             --font-size-14px: 0.875rem;
@@ -32,7 +32,7 @@ export const ResizeText = () => {
             --font-size-32px: 2rem;
           }
          
-          // use the variables in any of your CSS files
+          // use one of the font size variables in any of your CSS files
           .text {
             font-size: var(--font-size-16px);
           }

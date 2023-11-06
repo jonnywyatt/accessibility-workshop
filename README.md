@@ -25,11 +25,13 @@ Settings -> Advanced
 
 #### To turn on / off
 
-If your Mac has a Touch Bar - CMD + quickly press Touch ID three times
-Otherwise - CMD + F5
+If your Mac has a Touch Bar - hold the Command key down and quickly press Touch ID three times
+Otherwise - Command + F5
 Or - ask Siri to do it - "Turn on VoiceOver"
 
-#### To stop it talking
+Use the same command to turn it off.
+
+#### To stop VoiceOver talking
 
 Control key
 
@@ -37,13 +39,13 @@ Control key
 
 - To open - Caps Lock + U
 - To close - Escape
-- Use left / right arrow keys to switch pane
+- Use left / right arrow keys to switch pane in the Rotor
 - Up / down and enter to select
 
 #### Other
 
 - Read next item - Caps Lock + Right Arrow
-- Browser back button - CMD + [
+- Browser back button - Command + [
 - Read current item - Caps Lock + L
 
 

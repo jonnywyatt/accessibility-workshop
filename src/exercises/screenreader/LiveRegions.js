@@ -14,7 +14,13 @@ export const LiveRegions = () => {
     <main className={'main'}>
       <h1 className={'heading'}>Live regions</h1>
       <p>Live regions are used to announce changes to the page. They are useful for things like chat messages, notifications, and form validation.</p>
-      <p>Add a div to this page with the attribute 'aria-live="polite"'. When the data is loaded, write a message inside the div.</p>
+      <p>Clicking the 'Load some data' button adds new content to the page but screen readers won't know about it. They're only notified automatically about full page loads (eg clicking a link to load a new page).</p>
+      <p>To let screen readers know that something has changed</p>
+      <ol>
+        <li>Add an empty div to this page with the attribute 'aria-live="polite"'.</li>
+        <li>When the data is loaded, use a React state value (declared with useState) to write a message inside the div that would be useful to a screen reader, ie let them know what has changed.</li>
+        <li>The live region is useful for screen reader users. Sighted users don't need it as they can see where the content has been added. So the live region can be hidden from sighted users. Add the same CSS class that you used in a previous exercise to do this.</li>
+      </ol>
       <div><button type={'button'} onClick={loadData}>Load some data</button></div>
       {data.length > 0 && (
         <ul>
